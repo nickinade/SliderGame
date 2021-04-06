@@ -51,7 +51,7 @@ extension ContentView {
         color = UIColor(red: 1, green: 0, blue: 0, alpha: alpha)
     }
     
-    private func computeScore() -> gInt {
+    private func computeScore() -> Int {
         let difference = abs(targetValue - lround(currentValue))
         return 100 - difference
     }
